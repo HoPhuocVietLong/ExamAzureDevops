@@ -39,7 +39,7 @@ stages:
               preTestCommand: |
                 java --version
                 which java
-      maxParallel: 2
+      maxParallel: 1
     pool:
       vmImage: $(vmImageName)
     steps:
